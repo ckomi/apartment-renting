@@ -2,8 +2,9 @@
 
 ![Screenshot](1ss.png)
 ![Screenshot](2ss.png)
-![Screenshot](3ss.png)
-![Screenshot](4ss.png)
+
+
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.1.
 
