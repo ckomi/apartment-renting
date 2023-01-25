@@ -1,0 +1,15 @@
+<h2>APARTMENT RENTING</h2>
+
+<div id="buttonsDiv">
+    <button (click)="showAllPins()">SHOW ALL</button>
+    <button id="rightBtn" (click)="showFitPins()">FIT TO ALL</button>
+</div>
+
+<div class="recorsClass" *ngFor="let record of records">
+    <div id="recordInfo" (click)="onMarkerChoose(record)">
+        <div id="recordName"><a>{{ record.name }}</a></div>
+        <div id="recordAddress"><a>{{ record.streetAddress }}, {{ record.city }}</a></div>
+    </div>
+    <div id="recordImg"><img src="{{ record.photo }}" alt="{{ record.streetAddress }}"></div>
+    <br>
+</div>
